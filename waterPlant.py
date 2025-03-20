@@ -30,7 +30,8 @@ from time import sleep
 def main(args):
     
     
-    url = 'http://localhost:3000/doesPiNeedToWaterPlant'
+    #url = 'http://localhost:3000/doesPiNeedToWaterPlant'
+    url = 'http://trinityplants2025-dtccaxapagg7dpfn.centralus-01.azurewebsites.net/doesPiNeedToWaterPlant'
     response = requests.get(url); 
     print(response.text); 
     #pump = Motor(forward=17, backward=27)  # Using Raspberry Pi GPIO pin numbers
